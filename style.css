@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#myvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    color: darkred;
+}
+
+#moon {
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 900px;
+    height: 350px;
+    padding: 15px;
+    text-align: center;
+}
+
+.content h1 {
+    color: white;
+    font-size: 5em;
+    margin-bottom: 30px;
+    filter: drop-shadow(-5px 5px 10px darkred);
+}
+
+#b1 {
+    text-decoration: none;
+    background: darkred;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 4px;
+    padding: 10px 20px;
+    border-radius: 0 8px 0 8px;
+    margin: 0px 15px;
+    filter: drop-shadow(-5px 5px 10px white);
+}
+
+#b2 {
+    text-decoration: none;
+    background: white;
+    color: darkred;
+    font-size: 2em;
+    letter-spacing: 4px;
+    padding: 10px 20px;
+    border-radius: 0 8px 0 8px;
+    margin: 0px 15px;
+    filter: drop-shadow(-5px 5px 10px darkred);
+}
